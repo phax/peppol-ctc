@@ -11,6 +11,8 @@ This repository will offer supporting libraries to
 * Create Peppol CTC documents from UBL Invoice and UBL CreditNotes
 * Provide validation artefacts for validating Peppol CTC documents, using the [PHIVE](https://github.com/phax/phive) engine
 
-Links:
+## References
+
+External references to related documents:
 * https://peppol.eu/downloads/peppol-ctc/ - Peppol CTC Reference Document
 * https://openpeppol.atlassian.net/wiki/spaces/CPWGS/overview
