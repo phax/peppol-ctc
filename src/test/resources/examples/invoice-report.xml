@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+        xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+        xmlns="urn:fdc:peppol.org:2020:ctc:schema:Report-1">
+   <cbc:CustomizationID>urn:fdc:peppol.org:2020:ctc:dt:billing:report:1.0</cbc:CustomizationID>
+   <cbc:ProfileID>urn:fdc:peppol.org:2020:ctc:process:billing:clearing:1.0</cbc:ProfileID>
+   <cbc:ID>0088:9482348239847239874/0183:39937423947/Snippet1/2017</cbc:ID>
+   <cbc:IssueDate>2021-05-20</cbc:IssueDate>
+   <cbc:IssueTime>06:37:28</cbc:IssueTime>
+   <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+   <cac:OriginalDocumentReference>
+      <cbc:ID>Snippet1</cbc:ID>
+      <cbc:IssueDate>2017-11-13</cbc:IssueDate>
+      <cbc:DocumentTypeCode>380</cbc:DocumentTypeCode>
+   </cac:OriginalDocumentReference>
+   <cac:SenderParty>
+      <cbc:EndpointID schemeID="9999">000000000</cbc:EndpointID>
+   </cac:SenderParty>
+   <cac:ReceiverParty>
+      <cbc:EndpointID schemeID="9999">000000000</cbc:EndpointID>
+   </cac:ReceiverParty>
+   <cac:AccountingSupplierParty>
+      <cac:Party>
+         <cbc:EndpointID schemeID="0088">9482348239847239874</cbc:EndpointID>
+         <cac:PartyIdentification>
+            <cbc:ID>99887766</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name>SupplierTradingName Ltd.</cbc:Name>
+         </cac:PartyName>
+         <cac:PartyTaxScheme>
+            <cbc:CompanyID>GB1232434</cbc:CompanyID>
+            <cac:TaxScheme>
+               <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+         </cac:PartyTaxScheme>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>SupplierOfficialName Ltd</cbc:RegistrationName>
+            <cbc:CompanyID>GB983294</cbc:CompanyID>
+         </cac:PartyLegalEntity>
+      </cac:Party>
+   </cac:AccountingSupplierParty>
+   <cac:AccountingCustomerParty>
+      <cac:Party>
+         <cbc:EndpointID schemeID="0002">FR23342</cbc:EndpointID>
+         <cac:PartyIdentification>
+            <cbc:ID schemeID="0002">FR23342</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name>BuyerTradingName AS</cbc:Name>
+         </cac:PartyName>
+         <cac:PartyTaxScheme>
+            <cbc:CompanyID>SE4598375937</cbc:CompanyID>
+            <cac:TaxScheme>
+               <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+         </cac:PartyTaxScheme>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>Buyer Official Name</cbc:RegistrationName>
+            <cbc:CompanyID schemeID="0183">39937423947</cbc:CompanyID>
+         </cac:PartyLegalEntity>
+      </cac:Party>
+   </cac:AccountingCustomerParty>
+   <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="EUR">331.25</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+         <cbc:TaxableAmount currencyID="EUR">1325</cbc:TaxableAmount>
+         <cbc:TaxAmount currencyID="EUR">331.25</cbc:TaxAmount>
+         <cac:TaxCategory>
+            <cbc:ID>S</cbc:ID>
+            <cbc:Percent>25.0</cbc:Percent>
+            <cac:TaxScheme>
+               <cbc:ID>VAT</cbc:ID>
+            </cac:TaxScheme>
+         </cac:TaxCategory>
+      </cac:TaxSubtotal>
+   </cac:TaxTotal>
+   <cac:LegalMonetaryTotal>
+      <cbc:LineExtensionAmount currencyID="EUR">1300</cbc:LineExtensionAmount>
+      <cbc:TaxExclusiveAmount currencyID="EUR">1325</cbc:TaxExclusiveAmount>
+      <cbc:TaxInclusiveAmount currencyID="EUR">1656.25</cbc:TaxInclusiveAmount>
+      <cbc:ChargeTotalAmount currencyID="EUR">25</cbc:ChargeTotalAmount>
+      <cbc:PayableAmount currencyID="EUR">1656.25</cbc:PayableAmount>
+   </cac:LegalMonetaryTotal>
+</Report>

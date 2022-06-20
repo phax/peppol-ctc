@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApplicationResponse xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                     xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2">
+   <cbc:CustomizationID>urn:fdc:peppol.org:2020:ctc:dt:billing:response:1.0</cbc:CustomizationID>
+   <cbc:ProfileID>urn:fdc:peppol.org:2020:ctc:process:billing:clearing-report:1.0</cbc:ProfileID>
+   <cbc:ID>000000000000</cbc:ID>
+   <cbc:IssueDate>2021-05-20</cbc:IssueDate>
+   <cbc:IssueTime>06:37:33</cbc:IssueTime>
+   <cac:SenderParty>
+      <cbc:EndpointID schemeID="9999">000000000</cbc:EndpointID>
+   </cac:SenderParty>
+   <cac:ReceiverParty>
+      <cbc:EndpointID schemeID="9999">000000000</cbc:EndpointID>
+   </cac:ReceiverParty>
+   <cac:DocumentResponse>
+      <cac:Response>
+         <cbc:ResponseCode>SUCCESS</cbc:ResponseCode>
+      </cac:Response>
+      <cac:DocumentReference>
+         <cbc:ID>0088:9482348239847239874/0183:39937423947/Snippet1/2017</cbc:ID>
+         <cbc:IssueDate>2021-05-20</cbc:IssueDate>
+         <cbc:IssueTime>06:37:31</cbc:IssueTime>
+      </cac:DocumentReference>
+   </cac:DocumentResponse>
+</ApplicationResponse>
